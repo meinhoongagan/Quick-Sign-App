@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quick Sign App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <div id="color-picker" class="black">
+                Color Picker
+                <input type="color">
+            </div>
+            <div id="text-picker" class="black">
+                Text Picker
+                <input type="color">
+            </div>
+            <div id="font-picker" class="black">
+                Font Picker
+                <Select>
+                    <option value="5">5px</option>
+                    <option value="10">10px</option>
+                    <option value="15">15px</option>
+                    <option value="20">20px</option>
+                    <option value="25">25px</option>
+                </Select>
+            </div>
+        </div>
+        <canvas id="canvas" class="canvas"></canvas>
+        <div class="bottom">
+            <button class="clear">Clear</button><button class="save">Save & Download</button><button class="retrieve">Retrieve Save Data</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

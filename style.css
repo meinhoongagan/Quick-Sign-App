@@ -1,0 +1,60 @@
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top{
+    display: flex;
+    gap: 50px;
+    font-weight: bold;
+    font-size: large;
+}
+.black{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+input{
+    margin-top: 20px;
+    width: 100px;
+    /* padding: 5px; */
+}
+select{
+    margin-top: 20px;
+    width: 100px;
+    padding: 5px;
+}
+.canvas{
+    margin-top: 50px;
+    border: 2px solid black;
+    height: 60vh;
+    width: 70vw;
+}
+
+.bottom>button{
+    margin: 20px;
+    width: 150px;
+    padding: 10px;
+}
+.clear{
+    background-color: rgb(243, 82, 82);
+    color: white;
+    /* font-size: large; */
+    font-weight: bold;
+
+}
+.save{
+    background-color: rgb(82, 207, 82);
+    color: white;
+    /* font-size: large; */
+    font-weight: bold;
+
+}
+.retrieve{
+    background-color: rgb(82, 82, 237);
+    color: white;
+    /* font-size: large; */
+    font-weight: bold;
+
+}
